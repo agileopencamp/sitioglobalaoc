@@ -1,0 +1,198 @@
+/*
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-caption {
+    bottom: -10px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #ffffff;
+}
+
+.carousel-caption h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.editions {
+    width: 170%;
+    position: relative;
+    z-index: 16;
+    margin-top: 20px;
+    display: block;
+    margin-left: -173px;
+}
+
+.editions .btn {
+    width: 100%;
+}
+.event-background{ background: #F05F40; }
+.sponsors-background{ background: #7aa63f; }
+
+.center-logo{margin:0 0 10% 25%;}
+.center-boton{margin: 0 0 0 40%;}
+.rrss{ background: url(../img/rrss.png) 0 0 no-repeat; display:inline-block;}
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: .6;
+}
+
+.love {
+    color: mediumvioletred;
+}
+.link-color{color: white;}
+footer {
+    padding: 40px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer li a:link,
+footer li a:visited {
+    color: #bdbdbd;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.19);
+    padding: 5px;
+    width: 32px;
+    border: 1px solid;
+}
+
+footer li a:hover {
+    color: #FFF;
+}
+
+ul.ut-footer-so {
+    margin: 0;
+    padding: 0;
+}
+
+.paddingTop {
+    padding-top: 60px;
+}
+
+.topContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 40%;
+    margin-left: -173px;
+    margin-top: -150px;
+}
+
+.logoBottom {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.logo-small {
+    height: 45px;
+}
+.logo-M {
+    height: 100px;
+    margin-top: -15px;
+}
+
+.navbar-brand {
+    height: 55px;
+    padding: 5px;
+}
+
+@media (max-width: 1200px) {
+    .logoBottom {
+        width: 150px;
+        margin-top: 0px;
+    }
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+    background-color: black;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner>.item.next,
+    .carousel-fade .carousel-inner>.item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner>.item.prev,
+    .carousel-fade .carousel-inner>.item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner>.item.next.left,
+    .carousel-fade .carousel-inner>.item.prev.right,
+    .carousel-fade .carousel-inner>.item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
